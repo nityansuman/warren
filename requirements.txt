@@ -54,7 +54,7 @@ pyparsing==2.2.0
 pystan==2.17.0.0
 python-dateutil==2.6.1
 pytz==2017.3
-PyYAML==3.13
+pyyaml==4.2b1
 pyzmq==16.0.3
 qtconsole==4.3.1
 requests==2.20.0
