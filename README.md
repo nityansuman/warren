@@ -1,4 +1,4 @@
-## Stock Price Prediction 
+## Real Time Stock Price Prediction 
 
 A web based product using machine learning models to predict future stock values based on the historical values.  
 
