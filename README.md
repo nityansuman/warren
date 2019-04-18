@@ -4,25 +4,25 @@ A web based product using machine learning models to predict future stock values
 ## Forecasting Model:  
 FB Prophet
 
-[How to install anaconda ?](!http://anaconda.org/)
+[How to install anaconda ?](http://anaconda.org/)
 
 ## Steps to run the code:
 
 ### Create a project environment (Anaconda Env Recommended)
 ```
-	$ conda create --name myenv # Assuming Anaconda is installed, See above
+$ conda create --name myenv # Assuming Anaconda is installed, See above
 ```
 ### Get into the newly created virtual conda environment
 ```
-	$ source activate myenv
+$ source activate myenv
 ```
 ### Setup dependencies
 ```
-	$ pip install -r REQUIREMENTS.txt
+$ pip install -r REQUIREMENTS.txt
 ```
 ### Run
 ```
-	$ python prophet.py # Open the website on the indicated port
+$ python prophet.py # Open the website on the indicated port
 ```
 
 **Site available at: http://13.57.46.92:5000/**
