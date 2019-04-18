@@ -7,16 +7,24 @@ FB Prophet
 [How to install anaconda ?](!http://anaconda.org/)
 
 ## Steps to run the code:
+
+### Create a project environment (Anaconda Env Recommended)
 ```
-# Create a project environment (Anaconda Env Recommended)
 	$ conda create --name myenv # Assuming Anaconda is installed, See above
-# Get into the newly created virtual conda environment
+```
+### Get into the newly created virtual conda environment
+```
 	$ source activate myenv
-# Setup dependencies
-	# pip install -r REQUIREMENTS.txt
-# Run
+```
+### Setup dependencies
+```
+	$ pip install -r REQUIREMENTS.txt
+```
+### Run
+```
 	$ python prophet.py # Open the website on the indicated port
 ```
+
 **Site available at: http://13.57.46.92:5000/**
 
 In homepage, when the company ticker symbol is given, it fetches real time data using yahoo finance api.   
