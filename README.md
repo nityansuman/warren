@@ -4,10 +4,13 @@ A web based product using machine learning models to predict future stock values
 ## Forecasting Model:  
 FB Prophet
 
-[How to install anaconda ?](http://anaconda.org/)
+[How to install anaconda ?](https://docs.anaconda.com/anaconda/install/)
 
 ## Steps to run the code:
-
+### First thing first - clone the project
+```
+$ git clone https://github.com/nityansuman/Stock-Market-Prediction.git
+```
 ### Create a project environment (Anaconda Env Recommended)
 ```
 $ conda create --name myenv # Assuming Anaconda is installed, See above
@@ -22,6 +25,7 @@ $ pip install -r REQUIREMENTS.txt
 ```
 ### Run
 ```
+$ cd Stock-Market-Prediction/stock_price_prediction/
 $ python prophet.py # Open the website on the indicated port
 ```
 
