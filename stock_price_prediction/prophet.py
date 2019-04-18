@@ -1,15 +1,15 @@
-import pandas as pd
-import numpy as np
-import pandas_datareader.data as web
-from fbprophet import Prophet
-import datetime
-from flask import Flask, render_template
-from flask import request, redirect
-from pathlib import Path
 import os
-import os.path
 import csv
+import os.path
+import datetime
+import numpy as np
+import pandas as pd
+from pathlib import Path
+from fbprophet import Prophet
 from itertools import zip_longest
+from flask import request, redirect
+import pandas_datareader.data as web
+from flask import Flask, render_template
 
 app = Flask(__name__)
 

@@ -1,48 +1,36 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title> Prediction Results </title>
+    <title> Dashboard </title>
     <script src="/static/js/dygraph.js"></script>
     <link rel="stylesheet" href="../static/style_result.css">
     <link rel="stylesheet" href="/static/css/dygraph.css"/>
 </head>
 
 <body class = "bodyclass" >
-
     <div class="topnav" >
-        <a href="/" class = "homepage" style="color:White" >Stock Value Prediction</a>
+        <a href="/" class = "homepage" style="color:White" >Stock Price Prediction</a>
     </div>
-
     <h6>
         <object class = "summary" data="../static/summary/{{stock_tinker}}.txt" style="width:85%; height:40%;" ></object>
     </h6>
-        
-
-
     <table class="print_details" align="center" >
         <tr>
-
             <td>
                 <font color="grey">{{ stock_tinker }}</font>
             </td>
-                
             <td>
                 <font color="grey">Last Closing Stock Value</font>
             </td>
-
             <td>
                 <font color="grey">Predicted Stock Value</font>
             </td>
-
         </tr>
-            
         <tr>
             <td></td>
-
             <td>
                 <font color="grey">{{original}}</font>
             </td>
-
             <td>
                 <script type="text/javascript">
 
@@ -50,16 +38,10 @@
                         document.write("<center><b><font color=\"green\"><font size=\"5\">  {{forecast}}  </font><\/font></b></center>");
                     else
                         document.write("<center><b><font color=\"red\"><font size=\"5\">  {{forecast}}  </font><\/font></b></center>");
-                    //<font color="grey">{{forecast}}</font>
-
                 </script>
             </td>
-            
         </tr>
-
     </table>
-
-
     <script type="text/javascript">
         if( {{original}} - {{forecast}} < 0)
         {   
@@ -69,13 +51,9 @@
         else 
         {
             document.write("<center><b><font color=\"red\"><font size=\"5\">SELL - if stock is owned </font><\/font></b></center>");
-            //document.write("<center><b><font color=\"red\">Sell - if stock is owned<\/font></b></center>");
-            //document.write("<center><b><font color=\"green\">Short - if stock is not owned<\/font></b></center>")
             document.write("<center><b><font color=\"green\"><font size=\"5\">SHORT - if stock is not owned</font><\/font></b></center>");
         }        
-    </script>    
-
-
+    </script>
     <table class="container">
         <tr>
             <td>
@@ -97,7 +75,7 @@
             </td>
         </tr>
     </table>
-          
+
 <script type="text/javascript">
     g2 = new Dygraph(
                      document.getElementById("graph"),
@@ -189,10 +167,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
