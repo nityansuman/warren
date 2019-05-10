@@ -1,3 +1,10 @@
+""" 
+@Author: kumar.nityan.suman
+@Date: 2019-05-11 01:32:09
+"""
+
+
+# Load packages
 import os
 import sys
 import requests
@@ -5,11 +12,20 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense
 
+# Define file to store downloaded historical data
 FILE_NAME = "historical.csv"
 
+
 def get_historical(quote):
-    # Download our file from google finance
-    url = "http://www.google.com/finance/historical?q=NASDAQ%3A" + quote + "&output=csv"
+    """Download historical data for the given company from google finance.
+    
+    Arguments:
+        quote {String} -- A string representing the company quote (name-symbol).
+    
+    Returns:
+        Bool -- Returns True on download.
+    """
+    url = "http://www.google.com/finance/historical?q=NSE%3A" + quote + "&output=csv"
     r = requests.get(url, stream=True)
     if r.status_code != 400:
         with open(FILE_NAME, mode="wb") as f:
@@ -18,7 +34,11 @@ def get_historical(quote):
         return True
 
 def stock_prediction():
-    # Collect data points from csv
+    """Load historical data from the csv file.
+    
+    Returns:
+        String -- Denoting the movement of the price.
+    """
     dataset = list()
     with open(FILE_NAME) as f:
         for n, line in enumerate(f):
@@ -46,7 +66,6 @@ def stock_prediction():
     # Our prediction for tomorrow
     prediction = model.predict(np.array([dataset[0]]))
     result = "The price will move from %s to %s" % (dataset[0], prediction[0][0])
-
     return result
 
 # Ask user for a stock quote
@@ -58,7 +77,7 @@ if not get_historical(stock_quote):
     sys.exit()
 
 # We have our file so we create the neural net and get the prediction
-print (stock_prediction())
+print(stock_prediction())
 
 # We are done so we delete the csv file
 os.remove(FILE_NAME)
