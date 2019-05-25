@@ -1,4 +1,5 @@
-## Real Time Stock Price Prediction 
+## Real Time Stock Price Prediction [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8656e6556a6c43b98d1731e04f02123a)](https://www.codacy.com/app/nityansuman/stock-market-prediction?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nityansuman/stock-market-prediction&amp;utm_campaign=Badge_Grade)
+
 A web based product using machine learning models to predict future stock values based on the historical values.
 
 ![Header](stock_price_prediction/static/background.jpg)
