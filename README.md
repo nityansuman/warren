@@ -29,8 +29,6 @@ $ cd Stock-Market-Prediction/stock_price_prediction/
 $ python prophet.py # Open the website on the indicated port
 ```
 
-**Site available at: http://13.57.46.92:5000/**
-
 In homepage, when the company ticker symbol is given, it fetches real time data using yahoo finance api.   
 Once in a while, an error comes in retrieving data from yahoo finance as they check for captcha to make sure no automated system is using their data.  
 In that case, just go back to the homepage and try again. 
