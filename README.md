@@ -1,6 +1,8 @@
 ## Real Time Stock Price Prediction 
 A web based product using machine learning models to predict future stock values based on the historical values.
 
+![Header](stock_price_prediction/static/background.jpg)
+
 ## Forecasting Model:  
 FB Prophet
 
