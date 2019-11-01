@@ -1,5 +1,5 @@
 fbprophet==0.2.1
-Flask==0.12.3
+Flask==1.0
 Flask-Assets==0.12
 Flask-HTTPAuth==3.2.3
 Flask-SQLAlchemy==2.3.2
