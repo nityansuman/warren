@@ -7,19 +7,18 @@
 		<link rel="stylesheet" href="../static/style.css">
 	</head>
 
-	<video playsinline autoplay muted loop id="bgvid">
+	<!-- <video playsinline autoplay muted loop id="bgvid">
 	    <source src="{{ url_for('static', filename='video/video.mp4') }}" type="video/mp4">
-	</video>
+	</video> -->
 
 	<body>
 		<div >
 			<form action=http://localhost:5000/plot method = "POST">
-				<input type="text" name="companyname" placeholder="Enter company ticker symbol" class = "searchbox">
+				<input type="text" name="companyname" placeholder="Enter the company symbol" class = "searchbox">
 				<input type="submit" name="Search"  class="submit">
 			</form>
 			<a href="/" class = "homepage">Stock Price Prediction</a>
-			<marquee class = "bottombar">Stock values are subjected to market risk. Prediction is based on a time forecasting model from Facebook. Please invest at your own risk.</marquee>
+			<marquee class = "bottombar">Stock values are subjected to market risk. Prediction is based on Facebook's `Time Series Forecasting` (also known Fb-Prophet).</marquee>
 		</div>
 	</body>
-
 </html>
