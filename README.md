@@ -1,39 +1,31 @@
-## Real Time Stock Price Prediction [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8656e6556a6c43b98d1731e04f02123a)](https://www.codacy.com/app/nityansuman/stock-market-prediction?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nityansuman/stock-market-prediction&amp;utm_campaign=Badge_Grade)
-
-A web based product using machine learning models to predict future stock values based on the historical values.
+# Real Time Stock Price Prediction
 
 ![Header](stock_price_prediction/static/background.jpg)
 
-## Forecasting Model:  
-FB Prophet
-
-[How to install anaconda ?](https://docs.anaconda.com/anaconda/install/)
 
 ## Steps to run the code:
-### First thing first - clone the project
+
++ Clone the project
 ```
 $ git clone https://github.com/nityansuman/Stock-Market-Prediction.git
 ```
-### Create a project environment (Anaconda Env Recommended)
+
++ Create a project environment (Anaconda Env Recommended)
 ```
 $ conda create --name myenv # Assuming Anaconda is installed, See above
-```
-### Get into the newly created virtual conda environment
-```
 $ source activate myenv
 ```
-### Setup dependencies
+
++ Setup dependencies
 ```
 $ pip install -r REQUIREMENTS.txt
 ```
-### Run
+
++ Start the server
 ```
 $ cd Stock-Market-Prediction/stock_price_prediction/
-$ python prophet.py # Open the website on the indicated port
+$ python prophet.py
 ```
 
 In homepage, when the company ticker symbol is given, it fetches real time data using yahoo finance api.   
-Once in a while, an error comes in retrieving data from yahoo finance as they check for captcha to make sure no automated system is using their data.  
-In that case, just go back to the homepage and try again. 
-
-The forecasting model tries to learn from the entire time period, predicting the data at each step using the previous data and learning from it. This helps in predicting the anamolies over the years.
+Once in a while, an error comes in retrieving data from yahoo finance as they check for captcha to make sure no automated system is using their data. In that case, just go back to the homepage and try again.
