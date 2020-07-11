@@ -17,10 +17,10 @@ $ conda activate envname
 $ pip install -r REQUIREMENTS.txt
 
 # Navigate to the root folder
-$ cd stock-price-prediction-app/stock_price_prediction
+$ cd stock-price-prediction-app/
 
 # Run
-$ python prophet.py
+$ python runserver.py
 ```
 
 ## Important Links
