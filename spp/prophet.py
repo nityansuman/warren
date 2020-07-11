@@ -1,9 +1,3 @@
-""" 
-@Author: Kumar Nityan Suman
-@Date: 2019-05-11 01:32:01
-"""
-
-
 # Load packages
 import os
 import csv
