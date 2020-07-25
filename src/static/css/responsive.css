@@ -1,0 +1,152 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://www.bootstrapthemes.co
+*/
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .team .single_item .single_team_overlay{
+        padding: 50px 0px 10px 0px;
+    }
+    .team .single_team_right {
+        padding: 42px 10px;
+    }
+    .team .about_apply {
+        height: auto;
+    }
+
+
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    h4 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .team .single_team_right {
+        padding: 20px 5px;
+    }
+    .team .about_apply {
+        height: auto;
+    }
+
+
+
+
+}
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .btn-md {
+        padding: 1rem 2rem;
+    }
+    .team .about_apply {
+        height: auto;
+    }
+    .team .single_team_right {
+        padding: 50px 5px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: rgba(31, 31, 31, 0.65);
+    }
+    .main_menu_bg .navbar-nav>li>a {
+        text-align: center;
+    }
+
+    .scrool_down {
+        bottom: 4%;
+    }
+
+
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .gellary .single_gellary_item .gellary_overlay {
+        padding: 20px 0px 0px 0px;
+    }
+    .team .single_item .single_team_overlay {
+        padding: 40px 0px 10px 0px;
+    }
+    .team .single_team_right {
+        padding: 20px 5px;
+    }
+    .team .about_apply a {
+        height: 50px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .team .single_item .single_team_overlay {
+        padding: 20px 0px 10px 0px;
+    }
+    .gellary .single_gellary_item .gellary_overlay {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .team .single_team_right {
+        padding: 10px 5px;
+    }
+    .team .about_apply a {
+        height: 45px;
+    }
+
+
+
+
+}
+

@@ -1,0 +1,97 @@
+.homepage
+{
+	position: relative;
+	top: 5%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	outline: none;	
+	font-weight: 20;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.bodyclass
+{
+	background:"../static/background.jpg";
+	background: rgba(0,0,0,0);
+}
+
+.summary
+{
+	position: relative;
+	top: 20%;
+	left: 5%;
+	margin-bottom: 20px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 40px;
+    widows: 100%;
+    font-family: Comic Sans MS;
+	margin-bottom: 20px;
+}
+
+.container
+{
+	position: relative;
+	margin-left: 10%;
+	box-sizing: border-box;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+
+.print_details
+{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.labels
+{
+	position: relative;
+	box-sizing: border-box;
+	outline: none;	
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 40px;
+}
+
+.myCustomClassName{
+color:green;
+font-size: 1em;
+font-family:arial, helvetica, sans-serif;
+}
+
+.newsbox
+{
+	font-family: Comic Sans MS;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
