@@ -22,8 +22,8 @@ body {
     width: 100%;
     font-family: "Roboto";
     background: #13547a;
-    background: linear-gradient(to top, #13547a 0%, #80d0c7 100%);  
-} 
+    background: linear-gradient(to top, #13547a 0%, #80d0c7 100%);
+}
 .row {
     height: 33.33%;
     width: 100%;
@@ -31,6 +31,10 @@ body {
 .row2 {
     height: 33.33%;
     width: 60%;
+}
+.row3 {
+    height:50%;
+    width: 100%;
 }
 .col{
     float: left;
@@ -44,14 +48,13 @@ body {
     padding: 50px;
     color: white;
 }
-/*rgba(255, 255, 255, 0.5);*/
 .content {
     color: black;
     background-color: transparent;
 }
 .tagline {
     font-family: "Monoton";
-    font-size: 60px;
+    font-size: 80px;
     color: white;
 }
 .quote {
