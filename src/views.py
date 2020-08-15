@@ -71,7 +71,7 @@ def predict():
 
     d = [date, close_data, forecasted_data]
     export_data = zip_longest(*d, fillvalue = '')
-    with open('src/static/numbers.csv', 'w', encoding="ISO-8859-1", newline='') as myfile:
+    with open('src/database/corpus/numbers.csv', 'w', encoding="ISO-8859-1", newline='') as myfile:
         wr = csv.writer(myfile)
         wr.writerow(("Date", "Actual", "Forecasted"))
         wr.writerows(export_data)
