@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>JARVIS Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-static/css/main.css">
+    <!-- Javascript -->
+    <script src="../static/js/jquery-1.11.2.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<!-- Body content -->
+<body class="body3">
+	<br>
+	<div class="content">
+		<center>
+			<h1 class="tagline">STOCK -> {{stock_tinker}}</h1>
+		</center>
+	</div>
+
+	<object data="../static/summary/{{stock_tinker}}.txt" style="width:100%; height:50%;" ></object>
+
+	<center>
+	<h3 style="color: white;">
+		Predicted Stock Price: {{forecast}}
+	</h3>
+	</center>
+
+</body>
+</html>
+
+<!-- JavaScript -->
+<script src="../static/form-static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="../static/form-static/vendor/bootstrap/js/popper.js"></script>
+<script src="../static/form-static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/form-static/vendor/select2/select2.min.js"></script>
+<script src="../static/form-static/vendor/tilt/tilt.jquery.min.js"></script>
+<script >
+	$('.js-tilt').tilt({
+		scale: 1.1
+	})
+</script>
+<script src="../static/js/main.js"></script>

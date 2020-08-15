@@ -1,23 +1,4 @@
 <!doctype html>
-<!--
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Stock Price Prediction</title>
-		<link rel="stylesheet" href="/spp/static/style.css">
-	</head>
-	<body>
-		<div >
-			<form action="/plot" method = "POST" enctype="multipart/form-data">
-				<input type="text" name="companyname" placeholder="Enter the company symbol" class = "searchbox">
-				<input type="submit" name="Search"  class="submit">
-			</form>
-			<a href="/" class = "homepage">Stock Price Prediction</a>
-		</div>
-	</body>
-</html> -->
-
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
@@ -32,7 +13,7 @@
     <link rel="stylesheet" href="../static/css/style.css">
 	<link rel="stylesheet" href="../static/css/star-style.css">
 	<link rel="stylesheet" type="text/css" href="../static/form-static/css/util.css">
-	<link rel="stylesheet" type="text/css" href="../static/form-static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/css/main.css">
     <!-- Javascript -->
     <script src="../static/js/jquery-1.11.2.min.js"></script>
     <script src="../static/js/bootstrap.min.js"></script>
@@ -51,7 +32,7 @@
     </div>
     <center>
         <div class="row2">
-            <form class="contact1-form validate-form" action="/plot" method="POST" enctype="multipart/form-data">
+            <form class="contact1-form validate-form" action="/predict" method="POST" enctype="multipart/form-data">
                 <div class="wrap-input1 validate-input" data-validate="Company TICKER is required">
                     <input  autocomplete="off" class="input1" type="text" name="ticker" id="ticker" placeholder="Company TICKER Here!">
                     <span class="shadow-input1"></span>
