@@ -58,14 +58,14 @@ body {
     color: white;
 }
 .quote {
-    font-family: "Guci";
+    font-family: "Roboto";
     font-size: 50px;
     color: white;
 }
 .clock{
     color: white;
     align-content: right;
-    font-family: "DancingF"
+    font-family: "Roboto"
 }
 .left-side{
     padding-left: 80%;
@@ -79,14 +79,6 @@ body {
 @font-face{
     font-family: "Roboto";
     src: url("../fonts/Roboto_Mono/RobotoMono-Light.ttf")
-}
-@font-face{
-    font-family: "Guci";
-    src: url("../fonts/Gugi/Gugi-Regular.ttf")
-}
-@font-face{
-    font-family: "DancingF";
-    src: url("../fonts/Dancing_Script/DancingScript-Regular.ttf")
 }
 @font-face{
     font-family: "Monoton";
