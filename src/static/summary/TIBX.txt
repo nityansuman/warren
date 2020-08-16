@@ -1,5 +1,0 @@
-TIBCO (The Information Bus Company) Software Inc. is an American company that provides integration, analytics and event-processing software for companies to use on-premises or as part of cloud computing environments. The software manages information, decisions, processes and applications for over 10,000 customers.
-
-It has headquarters in Palo Alto, California, and offices in North America, Europe, Asia, the Middle East, Africa and South America.
-
-Clients include AirFrance/KLM, Citi, Conway, ING, Marks and Spencer, Nielsen, Shell, University of Chicago Medicine, Western Union.

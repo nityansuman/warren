@@ -1,5 +1,0 @@
-Adobe Systems Incorporated (/əˈdoʊbiː/ ədohbee) is an American multinational computer software company. The company is headquartered in San Jose, California, United States. Adobe has historically focused upon the creation of multimedia and creativity software products, with a more recent foray towards rich Internet application software development. It is best known for Photoshop, an image editing software, Acrobat Reader, the Portable Document Format (PDF) and Adobe Creative Suite, as well as its successor Adobe Creative Cloud.
-
-Adobe was founded in December 1982[4] by John Warnock and Charles Geschke, who established the company after leaving Xerox PARC in order to develop and sell the PostScript page description language. In 1985, Apple Computer licensed PostScript for use in its LaserWriter printers, which helped spark the desktop publishing revolution.[5]
-
-As of 2015, Adobe Systems has about 15,000 employees worldwide,[4] about 40% of whom work in San Jose. Adobe also has major development operations in Newton, Massachusetts;[6] New York City, New York; Minneapolis, Minnesota; Lehi, Utah; Seattle, Washington; San Francisco, California in the United States.

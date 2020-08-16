@@ -1,3 +1,0 @@
-Mozilla (stylized as moz://a) is a free-software community created in 1998 by members of Netscape. The Mozilla community uses, develops, spreads and supports Mozilla products, thereby promoting exclusively free software and open standards, with only minor exceptions. The community is supported institutionally by the Mozilla Foundation and its tax-paying subsidiary, the Mozilla Corporation.
-
-Mozilla's products include the Firefox web browser, Thunderbird e-mail client, Firefox OS mobile operating system, Bugzilla bug tracking system, Gecko layout engine and others. During 2017, Mozilla acquired Pocket, a "read-it-later-online" service.
