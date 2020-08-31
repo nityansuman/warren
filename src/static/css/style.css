@@ -1,81 +1,70 @@
+/* Define body style */
 body {
-    background-size: cover;
-    font-family: "Roboto";
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: "Roboto";
-    background-image: url("../images/header.jpg")
+	font-family: "Roboto";
+	color: white;
+	background: #b92b27;  /* fallback for old browsers */background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.body2 {
-    background-size: cover;
-    font-family: "Roboto";
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: "Roboto";
-    background-image: url("../images/form_header.jpg")
+
+/* Fill blank */
+.blank {
+    height: 50px;
 }
 
-.body3 {
-    width: 100%;
-    font-family: "Roboto";
-    background: #13547a;
-    background: linear-gradient(to top, #13547a 0%, #80d0c7 100%);
+.blank100 {
+    height: 100px;
 }
-.row {
-    height: 33.33%;
-    width: 100%;
+
+.blank200 {
+    height: 200px;
 }
-.row2 {
-    height: 33.33%;
-    width: 60%;
+
+.blank300 {
+    height: 300px;
 }
-.row3 {
-    height:50%;
-    width: 100%;
-}
-.col{
-    float: left;
-    width: 50%;
-}
-.head-space2{
-    padding-right: 50px;
-    color: white;
-}
-.head-space{
-    padding: 50px;
-    color: white;
-}
-.content {
-    color: black;
-    background-color: transparent;
-}
+
+
+/* Content */
 .tagline {
     font-family: "Monoton";
     font-size: 80px;
     color: white;
 }
-.quote {
-    font-family: "Roboto";
-    font-size: 50px;
+
+.white_text { 
     color: white;
-}
-.clock{
-    color: white;
-    align-content: right;
-    font-family: "Roboto"
-}
-.left-side{
-    padding-left: 80%;
-    font-family: "Roboto";
-}
-.prompt{
-    color:black;
-    font-size: 20px;
 }
 
+.red_text {
+    color: red;
+    font-size: xx-large;
+}
+
+.green_text {
+    color: green;
+    font-size: xx-large;
+}
+
+.blue_text {
+    color: cyan;
+    font-size: xx-large;
+}
+
+p {
+    color: white;
+    font-size: medium;
+}
+
+/* Footer */
+.footer {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+
+/* Import external fonts */
 @font-face{
     font-family: "Roboto";
     src: url("../fonts/Roboto_Mono/RobotoMono-Light.ttf")
@@ -83,8 +72,4 @@ body {
 @font-face{
     font-family: "Monoton";
     src: url("../fonts/Monoton/Monoton-Regular.ttf")
-}
-@font-face{
-    font-family: "PressStart";
-    src: url("../fonts/East_Sea_Dokdo/EastSeaDokdo-Regular.ttf")
 }
