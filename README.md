@@ -3,7 +3,7 @@
 Stock market prediction is the act of trying to determine the future value of a company stock or other financial instrument traded on an exchange. The successful prediction of a stock's future price could yield significant profit. The efficient-market hypothesis suggests that stock prices reflect all currently available information and any price changes that are not based on newly revealed information thus are inherently unpredictable. Others disagree and those with this viewpoint possess myriad methods and technologies which purportedly allow them to gain future price information.
 Here we make use of Facebook's Time Series forcasting algorithm Prophet to predict stock market price of US based companies.
 
-![Header](src/static/images/header.jpg)
+![Header](src/static/images/header.png)
 
 
 ## Install Prerequisites and Run
@@ -25,6 +25,20 @@ $ cd stock-price-prediction-app/
 # Run
 $ python runserver.py
 ```
+
+## Model Validation Analysis (30-day Validation Period)
+
+### Facebook (Stock: FB) Validation
+![FB_validation](src/static/images/fb_forecast_30_day_validation.png)
+
+
+### Microsoft (Stock: MSFT) Validation
+![FB_validation](src/static/images/msft_forecast_30day_validation.png)
+
+### Google (Stock: GOOGL) Validation
+![FB_validation](src/static/images/googl_forecast_30day_validation.png)
+
+
 
 ## Important Links
 
