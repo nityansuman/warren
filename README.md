@@ -1,4 +1,4 @@
-# Real Time Stock Price Prediction
+# Warren - Stock Price Predictor
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d93ddbea81b4c589955df3e8fa18617)](https://app.codacy.com/manual/nityansuman/warren?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/warren&utm_campaign=Badge_Grade_Settings)
