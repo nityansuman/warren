@@ -9,11 +9,8 @@
 
 
 # Import packages
-import os
 from src import app
-import pandas as pd
-from flask import request, redirect
-from flask import render_template, request, session
+from flask import render_template, request
 from src.utilities import MasterProphet
 
 
