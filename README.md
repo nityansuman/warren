@@ -1,8 +1,7 @@
 # Real Time Stock Price Prediction
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d93ddbea81b4c589955df3e8fa18617)](https://app.codacy.com/manual/nityansuman/warren?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/warren&utm_campaign=Badge_Grade_Settings)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d93ddbea81b4c589955df3e8fa18617)](https://app.codacy.com/manual/nityansuman/warren?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/warren&utm_campaign=Badge_Grade_Settings)
 ![GitHub](https://img.shields.io/github/license/nityansuman/warren)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/warren)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/warren)
