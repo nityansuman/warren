@@ -19,7 +19,7 @@ Here we make use of Facebook's Time Series forcasting algorithm Prophet to predi
 
 ```
 # Download/clone the project from github
-$ git clone https://github.com/nityansuman/stock-price-prediction-app.git
+$ git clone https://github.com/nityansuman/warren.git
 
 # Create a project environment with Anaconda
 $ conda create --name envname python
@@ -29,7 +29,7 @@ $ conda activate envname
 $ pip install -r REQUIREMENTS.txt
 
 # Navigate to the root folder
-$ cd stock-price-prediction-app/
+$ cd warren/
 
 # Run
 $ python runserver.py
