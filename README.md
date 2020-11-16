@@ -1,5 +1,4 @@
 # Warren - Stock Price Predictor
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d93ddbea81b4c589955df3e8fa18617)](https://app.codacy.com/manual/nityansuman/warren?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/warren&utm_campaign=Badge_Grade_Settings)
 ![GitHub](https://img.shields.io/github/license/nityansuman/warren)
@@ -15,50 +14,47 @@ Here we make use of Facebook's Time Series forcasting algorithm Prophet to predi
 
 ![Header](src/static/images/main_page.png)
 
-## Install Pre-requisites and Run
+## Getting started
 
+Download or clone project from github
 ```
-# Download/clone the project from github
 $ git clone https://github.com/nityansuman/warren.git
+```
 
-# Create a project environment with Anaconda
+Create a project environment (Anaconda recommended)
+```
 $ conda create --name envname python
 $ conda activate envname
+```
 
-# Install and set-up required packages
+Install prerequisites
+```
 $ pip install -r REQUIREMENTS.txt
+```
 
-# Navigate to the root folder
-$ cd warren/
+Run project
+```
+$ cd warren
 
-# Run
 $ python runserver.py
 ```
 
 ## Model Validation Analysis (30-day Validation Period)
 
-### Facebook (Stock: FB) Validation
+**Facebook (Stock: FB) Validation**
 ![FB_validation](src/static/images/fb_forecast_30_day_validation.png)
 
 
-### Microsoft (Stock: MSFT) Validation
-![FB_validation](src/static/images/msft_forecast_30day_validation.png)
+**Microsoft (Stock: MSFT) Validation**
+![MSFT_validation](src/static/images/msft_forecast_30day_validation.png)
 
-### Google (Stock: GOOGL) Validation
-![FB_validation](src/static/images/googl_forecast_30day_validation.png)
+**Google (Stock: GOOGL) Validation**
+![GOOGLE_validation](src/static/images/googl_forecast_30day_validation.png)
 
-## Important Links
+## Support
 
-* [Git](https://git-scm.com/)
-* [Python](https://python.org/)
-* [Github](https://github.com/)
-* [Flask](http://flask.pocoo.org/)
-* [Web Development](https://w3schoo.com/)
-* [Anaconda Python Distribution](https://conda.io)
-* [Prophet](https://facebook.github.io/prophet/)
-* [Time Series Forecasting](https://machinelearningmastery.com/time-series-forecasting/)
-* [How to install anaconda python distribution ?](https://docs.anaconda.com/anaconda/install/)
+If you like the work I do, show your appreciation by 'FORK', 'STAR' and/or 'SHARE'.
 
-Drop me a mail or connect with me on [Linkedin](https://linkedin.com/in/kumar-nityan-suman/) .
+Open to all types of collaborations. Feel free to raise a PR.
 
-If you like the work I do, show your appreciation by 'FORK', 'STAR' and 'SHARE'.
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
