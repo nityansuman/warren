@@ -39,7 +39,7 @@ $ cd warren
 $ python runserver.py
 ```
 
-## Model Validation Analysis (30-day Validation Period)
+## Model Validation Analysis
 
 **Facebook (Stock: FB) Validation**
 ![FB_validation](src/static/images/fb_forecast_30_day_validation.png)
