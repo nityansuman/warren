@@ -6,7 +6,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/warren)
 ![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/warren)
 
-![Maintenance](https://img.shields.io/maintenance/yes/2020)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/warren)
 
 Stock market prediction is the act of trying to determine the future value of a company stock or other financial instrument traded on an exchange. The successful prediction of a stock's future price could yield significant profit. The efficient-market hypothesis suggests that stock prices reflect all currently available information and any price changes that are not based on newly revealed information thus are inherently unpredictable. Others disagree and those with this viewpoint possess myriad methods and technologies which purportedly allow them to gain future price information.
@@ -14,7 +13,7 @@ Here we make use of Facebook's Time Series forcasting algorithm Prophet to predi
 
 ![Header](src/static/images/main_page.png)
 
-## Getting started
+## Getting Started
 
 Download or clone project from github
 ```
@@ -53,8 +52,7 @@ $ python runserver.py
 
 ## Support
 
-If you like the work I do, show your appreciation by 'FORK', 'STAR' and/or 'SHARE'.
-
-Open to all types of collaboration. Feel free to raise a PR.
+If you like the work I do, show your appreciation by 'FORK', 'STAR' and 'SHARE'.
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
