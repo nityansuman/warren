@@ -1,4 +1,5 @@
-# Copyright 2020 `Kumar Nityan Suman` (https://github.com/nityansuman/). All Rights Reserved.
+# Copyright 2020 `Kumar Nityan Suman` (https://github.com/nityansuman/).
+# All Rights Reserved.
 #
 #                     GNU GENERAL PUBLIC LICENSE
 #                        Version 3, 29 June 2007
@@ -7,9 +8,8 @@
 #  of this license document, but changing it is not allowed.
 # ==============================================================================
 
-
-# Import packages
 import os
+
 from src import app
 
 
