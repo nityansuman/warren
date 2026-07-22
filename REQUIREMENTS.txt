@@ -4,7 +4,7 @@ matplotlib==3.3.1
 numpy==1.22.0
 pandas==1.1.0
 yfinance==0.1.54
-Pillow==9.3.0
+Pillow==12.3.0
 plotly==4.9.0
 protobuf==3.18.3
 requests==2.31.0
