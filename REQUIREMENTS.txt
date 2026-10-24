@@ -7,7 +7,7 @@ yfinance==0.1.54
 Pillow==9.3.0
 plotly==4.9.0
 protobuf==3.18.3
-requests==2.31.0
+requests==2.32.4
 rsa==4.7
 scipy==1.10.0
 setuptools-git==1.2
@@ -16,4 +16,4 @@ tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 tensorflow>=2.3.1
 tensorflow-estimator==2.3.0
-urllib3==1.26.5
+urllib3==1.26.20
